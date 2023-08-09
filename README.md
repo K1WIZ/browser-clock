@@ -2,6 +2,7 @@
 a PHP based clock that displays updating server time on the client browser in LED font
 
 Written by: John Rogers with AI assist
+
 Date: 08/08/2023
 
 License: GPL
