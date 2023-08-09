@@ -22,7 +22,7 @@
 
         #clock {
             font-size: 25vw;
-            font-weight: ;
+            font-weight: normal;
             color: red;
             text-align: center;
         }
@@ -35,7 +35,7 @@
             var seconds = currentTime.getSeconds();
             var meridiem = "AM";
 
-            if (hours > 12) {
+            if (hours >= 12) {
                 hours -= 12;
                 meridiem = "PM";
             }
